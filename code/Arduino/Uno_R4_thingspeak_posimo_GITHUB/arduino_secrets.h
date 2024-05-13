@@ -1,0 +1,2 @@
+#define SECRET_SSID "GEOCOSMO"
+#define SECRET_PASS "g17091975"
