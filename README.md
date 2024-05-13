@@ -1,2 +1,26 @@
-# water
-Νερό το πιο πολύτιμο αγαθό
+<p style="text-align: justify;">Το νερό είναι πηγής ζωής για κάθε τι πάνω σ’ αυτό τον πλανήτη. Είναι εξίσου σημαντικό με το οξυγόνο για να υπάρχει ζωή. Είναι το κύριο συστατικό του σώματός μας καθώς το 70% του ανθρώπινου σώματος ενός ενήλικα αποτελείται από νερό. Ο ανθρώπινος οργανισμός χρειάζεται πάνω από 1 ½ λίτρα νερό ημερησίως για να λειτουργεί σωστά. Ένα από τα μεγαλύτερα προβλήματα που αντιμετωπίζουμε σήμερα είναι η ποιότητα του νερού που κυκλοφορεί στα δίκτυα ύδρευσης.</p>
+<p style="text-align: justify;">Οι υπάρχουσες εργαστηριακές μέθοδοι είναι αργές και δεν παρέχουν επίπεδο προστασίας της δημόσιας υγείας σε πραγματικό χρόνο. Κατανοήσαμε ότι χρειάζεται ένα σύστημα-μοντέλο που να είναι σε θέση να εντοπίζει γρήγορα και να ανταποκρίνεται σε περιπτώσεις τυχαίας ή σκόπιμης μόλυνσης, λόγω των πιθανών σοβαρών συνεπειών στον άνθρωπο, που να ανιχνεύει το πρόβλημα σε πραγματικό χρόνο και να εξασφαλίζει την κατάλληλη και έγκαιρη ανταπόκριση.</p>
+<p style="text-align: justify;"><span style="font-weight: 400;">Δημιουργήσαμε δύο αυτόνομα συστήματα  που ελέγχουν τις συνθήκες περιβάλλοντος και την ποιότητα του νερού από το δίκτυο ύδρευσης και από τον ποταμό της περιοχής μας αντίστοιχα.</span></p>
+<p style="text-align: justify;"><span style="font-weight: 400;">Το πρώτο ελέγχει την ποιότητα πόσιμου νερού καταγράφοντας το pH και τη θολότητά του, καθώς και τις συνθήκες θερμοκρασίας και υγρασίας στο σχολείο. Αποτελείται από: </span></p>
+
+<ul>
+ 	<li style="font-weight: 400; text-align: justify;"><span style="font-weight: 400;">έναν μικροελεγκτή Arduino UNO R4 WiFi</span></li>
+ 	<li style="font-weight: 400; text-align: justify;"><span style="font-weight: 400;">έναν αισθητήρα pH, που δίνει μετρήσεις στην κλίμακα 0-14</span></li>
+ 	<li style="font-weight: 400; text-align: justify;"><span style="font-weight: 400;">έναν αισθητήρα θερμοκρασίας DHT11, που καταγράφει τη θερμοκρασία σε </span><span style="font-weight: 400;">ο</span><span style="font-weight: 400;">C και την υγρασία σε % κλίμακα</span></li>
+ 	<li style="font-weight: 400; text-align: justify;"><span style="font-weight: 400;">έναν αισθητήρα θολότητας (turbidity sensor) που δίνει τιμές από 0 εώς 5 και </span></li>
+ 	<li style="font-weight: 400; text-align: justify;"><span style="font-weight: 400;">μια οθόνη LCD I2C όπου εμφανίζονται αυτές οι τιμές</span></li>
+</ul>
+<span style="font-weight: 400;"><img class="alignnone size-medium wp-image-11376" src="https://openedtech.ellak.gr/wp-content/uploads/sites/31/2024/05/posimo_bb-300x155.png" alt="ΓΥΜΝΑΣΙΟ ΜΕΓΑΛΩΝ ΚΑΛΥΒΙΩΝ" width="300" height="155" />     <img class="alignnone size-medium wp-image-11372" src="https://openedtech.ellak.gr/wp-content/uploads/sites/31/2024/05/posimo-nero-269x300.png" alt="ΓΥΜΝΑΣΙΟ ΜΕΓΑΛΩΝ ΚΑΛΥΒΙΩΝ" width="269" height="300" /></span>
+<p style="text-align: justify;"><span style="font-weight: 400;">Το δεύ</span><span style="font-weight: 400;">τερο ελέγχει την ποιότητα του νερού ενός ποταμού καταγράφοντας το pH και τη στάθμη του ποταμού καθώς και τις συνθήκες θερμοκρασίας και υγρασίας του εξωτερικού περιβάλλοντος. </span></p>
+<img class="alignnone wp-image-11377" src="https://openedtech.ellak.gr/wp-content/uploads/sites/31/2024/05/potami_bb-300x158.png" alt="" width="422" height="222" /><img class="alignnone size-medium wp-image-11374" src="https://openedtech.ellak.gr/wp-content/uploads/sites/31/2024/05/potami-249x300.png" alt="ΓΥΜΝΑΣΙΟ ΜΕΓΑΛΩΝ ΚΑΛΥΒΙΩΝ" width="249" height="300" />
+
+<img class="size-medium wp-image-11375 alignleft" src="https://openedtech.ellak.gr/wp-content/uploads/sites/31/2024/05/thingspeak-288x300.png" alt="ΓΥΜΝΑΣΙΟ ΜΕΓΑΛΩΝ ΚΑΛΥΒΙΩΝ" width="288" height="300" />
+<p style="text-align: justify;"><span style="font-weight: 400;">Στη συνέχεια οι τιμές που θα καταγράφονται με τα παραπάνω συστήματα θα είναι προσβάσιμες μέσω διαδικτύου στο cloud (υπολογιστικό νέφος) στην ιστοσελίδα</span> <a href="http://www.thinkspeak.com"><span style="font-weight: 400;">www.thinkspeak.com</span></a><span style="font-weight: 400;"> καθώς θα χρησιμοποιηθεί η τεχνολογία Internet of Things (IoT), για περαιτέρω επεξεργασία από Πανεπιστήμια ή άλλους αρμόδιους οργανισμούς προκειμένου να βγούνε χρήσιμα συμπεράσματα και να ληφθούν κρίσιμες αποφάσεις όταν το επιτάσσουν οι ανάγκες. (Κανάλι1 - μετρήσεις πόσιμου νερού στο σχολείο:</span><a href="https://thingspeak.com/channels/2451104"> <span style="font-weight: 400;">https://thingspeak.com/channels/2451104</span></a><span style="font-weight: 400;">, Κανάλι2 - μετρήσεις στο ποτάμι:</span><a href="https://thingspeak.com/channels/2476379"> <span style="font-weight: 400;">https://thingspeak.com/channels/2476379</span></a><span style="font-weight: 400;">).</span></p>
+<p style="text-align: justify;"><span style="font-weight: 400;">Το συνολικό κόστος αυτού του συστήματος ανέρχεται σε €270.</span></p>
+<p style="text-align: justify;"><span style="font-weight: 400;">Ένα μοντέλο ποταμιού σχεδιάστηκε στο TinkerCad και εκτυπώθηκαν στον 3D εκτυπωτή του σχολείου.</span></p>
+<img class="size-medium wp-image-11373 aligncenter" src="https://openedtech.ellak.gr/wp-content/uploads/sites/31/2024/05/potami-3D-300x274.png" alt="ΓΥΜΝΑΣΙΟ ΜΕΓΑΛΩΝ ΚΑΛΥΒΙΩΝ" width="300" height="274" />
+<p style="text-align: justify;">Αναλυτικά την έρευνα, τη σχεδίαση που ακολουθήσαμε, τη διάταξη κυκλωμάτων, τον κώδικα, το OER που ακολουθήσαμε και το 3D αρχείο που σχεδιάσαμε, μπορείτε να τα βρείτε στη διεύθυνση αποθετηρίου στο Github: <a href="https://github.com/gymmkalyv/water">https://github.com/gymmkalyv/water</a></p>
+<p style="text-align: center;"><strong>Βίντεο έργου</strong></p>
+https://gym-m-kalyv.tri.sch.gr/wp-content/uploads/2024/05/ΕΛΛΑΚ-2024-2.mp4
+
+&nbsp;
