@@ -19,7 +19,7 @@
 <p style="text-align: justify;"><span style="font-weight: 400;">Το συνολικό κόστος αυτού του συστήματος ανέρχεται σε €270.</span></p>
 <p style="text-align: justify;"><span style="font-weight: 400;">Ένα μοντέλο ποταμιού σχεδιάστηκε στο TinkerCad και εκτυπώθηκαν στον 3D εκτυπωτή του σχολείου.</span></p>
 <img class="size-medium wp-image-11373 aligncenter" src="https://openedtech.ellak.gr/wp-content/uploads/sites/31/2024/05/potami-3D-300x274.png" alt="ΓΥΜΝΑΣΙΟ ΜΕΓΑΛΩΝ ΚΑΛΥΒΙΩΝ" width="300" height="274" />
-<p style="text-align: justify;">Αναλυτικά την έρευνα, τη σχεδίαση που ακολουθήσαμε, τη διάταξη κυκλωμάτων, τον κώδικα, το OER που ακολουθήσαμε και το 3D αρχείο που σχεδιάσαμε, μπορείτε να τα βρείτε στη διεύθυνση αποθετηρίου στο Github: <a href="https://github.com/gymmkalyv/water">https://github.com/gymmkalyv/water</a></p>
+<p style="text-align: justify;">Αναλυτικά την έρευνα, τη σχεδίαση που ακολουθήσαμε, τη διάταξη κυκλωμάτων, τον κώδικα, το OER που ακολουθήσαμε και το 3D αρχείο που σχεδιάσαμε, μπορείτε να τα βρείτε στη διεύθυνση αποθετηρίου στο Github: <a href="https://github.com/gymmkalyv/water">https://github.com/gymmkalyv/water</a></p> Η πλήρη ανάλυση και τα φύλλα εργασίας του έργου είναι διαθεσιμα στον σύνδεσμο https://github.com/gymmkalyv/water/blob/main/docs/%CE%95%CE%A1%CE%93%CE%9F%20%CE%9D%CE%95%CE%A1%CE%9F%20%CE%A4%CE%9F%20%CE%A0%CE%99%CE%9F%20%CE%A0%CE%9F%CE%9B%CE%A5%CE%A4%CE%99%CE%9C%CE%9F%20%CE%91%CE%93%CE%91%CE%98%CE%9F.pdf 
 <p style="text-align: center;"><strong>Βίντεο έργου</strong></p>
 https://gym-m-kalyv.tri.sch.gr/wp-content/uploads/2024/05/ΕΛΛΑΚ-2024-2.mp4
 
